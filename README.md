@@ -31,9 +31,20 @@
             border-radius: 0 0 10px 10px;
         }
 
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Display items side by side */
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
         section {
             padding: 20px;
-            background-color: #ffcb05; /* Updated background color */
+            background-color: #fff; /* White background */
             margin: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
